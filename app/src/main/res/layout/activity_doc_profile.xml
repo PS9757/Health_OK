@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doc_profile_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#0F63AA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="56dp"
+                android:src="@drawable/docreplaceimag1" />
+
+            <TextView
+                android:id="@+id/fullinfodocname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+                android:text="Dr Name"
+                android:textColor="#E8EAF6"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/gridbg"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="34dp" />
+
+            <TextView
+                android:id="@+id/fullinfodocaddress1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="xyz pppppppppppp"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="City:"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="34dp"
+                android:fontFamily="@font/alegreya_sans"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/docfullinfocity1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Mumbai"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Contact:"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="34dp"
+                android:fontFamily="@font/alegreya_sans"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone no:"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/aldrich"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="25dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:id="@+id/docfullinfophoneno1"
+                    android:text="XXXXXXXXXXX"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:fontFamily="@font/aldrich"
+                    android:layout_marginLeft="20dp"
+
+                    android:textSize="25dp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/docfullinfoemail1"
+                    android:text="xyz@gmail.com"
+                    android:textSize="25dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginLeft="53dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

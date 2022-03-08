@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1099136231833",
+    "project_id": "health-ok-db45c",
+    "storage_bucket": "health-ok-db45c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099136231833:android:a69db768b1f15da65fcb08",
+        "android_client_info": {
+          "package_name": "com.example.health_ok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099136231833-vdi5p59ksov81cpeqnq47a7bnfcfda5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrYxW3_Roh_Hoo0pEXs6dTn20peXHhN44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099136231833-vdi5p59ksov81cpeqnq47a7bnfcfda5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
